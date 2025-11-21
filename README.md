@@ -1,4 +1,41 @@
-# Sandboxels
+
+entity.humano = {
+  x = 100,
+    y = 100,
+      velocidad = 5,
+        tamaño = 10,
+          controles = {
+              w = "arriba",
+                  s = "abajo",
+                      a = "izquierda",
+                          d = "derecha"
+                            }
+                            }
+                            
+                            entity.explosivo = {
+                              x = 200,
+                                y = 200,
+                                  daño = 100,
+                                    alcance = 50,
+                                      velocidad = 3,
+                                        controles = {
+                                            espacio = "colocar",
+                                                e = "explosión",
+                                                    i = "arriba",
+                                                        k = "abajo",
+                                                            j = "izquierda",
+                                                                l = "derecha"
+                                                                  }
+                                                                  }
+                                                                  
+                                                                  action.excavar = {
+                                                                    herramienta = "pala",
+                                                                      velocidad = 1,
+                                                                        controles = {
+                                                                            q = "excavar"
+                                                                              }
+                                                                              }
+                                                                              # Sandboxels
 A falling sand simulation game with hundreds of elements, heat simulation, chemical reactions, fire, density, electricity, and more.
 
 Play for free at [Sandboxels.R74n.com](https://sandboxels.r74n.com/).
